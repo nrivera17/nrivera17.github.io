@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicole Rivera - Personal Portfolio</title>
+    <style>
+        :root {
+            --primary: #1d4ed8;
+            --text: #1f2937;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        h1 { margin: 0 0 0.5rem 0; color: #111827; }
+        .contact-info {
+            font-size: 0.95rem;
+            color: #6b7280;
+            margin-bottom: 1rem;
+        }
+        .contact-info a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .statement {
+            font-size: 1.2rem;
+            color: #374151;
+            font-weight: 500;
+            margin-top: 1rem;
+        }
+        section {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+        h2 {
+            margin-top: 0;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 0.5rem;
+            color: var(--primary);
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            list-style: none;
+            padding: 0;
+        }
+        .skill-tag {
+            background: #eff6ff;
+            color: var(--primary);
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border: 1px solid #bfdbfe;
+        }
+        .project-card {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.25rem;
+        }
+        .project-card:last-child { margin-bottom: 0; }
+        .project-title { margin: 0 0 0.25rem 0; font-size: 1.2rem; }
+        .project-meta {
+            font-size: 0.875rem;
+            color: #6b7280;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+        .project-links a {
+            display: inline-block;
+            margin-top: 0.5rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .project-links a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER / PERSONAL STATEMENT -->
+        <header>
+            <h1>Nicole Rivera</h1>
+            <div class="contact-info">
+                North Arlington, NJ | (201) 229-8911 | 
+                <a href="mailto:nar192@scarletmail.rutgers.edu">nar192@scarletmail.rutgers.edu</a> | 
+                <a href="https://www.linkedin.com/in/nicole-rivera-9849482a1" target="_blank">LinkedIn Profile</a>
+            </div>
+            <p class="statement">
+                Leadership and Management student at Rutgers Business School with proven leadership, community outreach, and team-building experience.
+            </p>
+        </header>
+
+        <!-- SKILLS SECTION -->
+        <section>
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li class="skill-tag">Team Leadership & Building</li>
+                <li class="skill-tag">Organizational & Time Management</li>
+                <li class="skill-tag">Cross-Cultural Communication</li>
+                <li class="skill-tag">Community Outreach & Event Planning</li>
+                <li class="skill-tag">Fundraising & Operations</li>
+                <li class="skill-tag">English (Native) & Spanish (Conversational)</li>
+                <li class="skill-tag">Computer Applications & Financial Accounting</li>
+            </ul>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section>
+            <h2>Projects & Initiatives</h2>
+
+            <div class="project-card">
+                <h3 class="project-title">Community Outreach & Fundraising Initiatives</h3>
+                <div class="project-meta">Junior Women's Club | Sep 2020 – Present</div>
+                <p>Organized community events, food drives, and toy collections that raised over $10,000 and directly supported over 100 families in need.</p>
+                <div class="project-links">
+                    <a href="https://www.linkedin.com/in/nicole-rivera-9849482a1" target="_blank">Connect on LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">Swim Instruction & Safety Program Leadership</h3>
+                <div class="project-meta">British Swim School | May 2025 – Present</div>
+                <p>Designed and led instructional programs for students aged 6 to 50, running shift team meetings to foster skill-building and water safety confidence.</p>
+                <div class="project-links">
+                    <a href="https://www.linkedin.com/in/nicole-rivera-9849482a1" target="_blank">Connect on LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">Food Pantry Distribution Operations</h3>
+                <div class="project-meta">Community Volunteer Work | 2023 – Present</div>
+                <p>Managed inventory organization, sorting, and distribution operations at a local food pantry to deliver essential supplies to community members.</p>
+                <div class="project-links">
+                    <a href="https://www.linkedin.com/in/nicole-rivera-9849482a1" target="_blank">Connect on LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
